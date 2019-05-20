@@ -1,0 +1,29 @@
+h1 {
+    font-family: Baloo Bhai;
+}
+ul{
+    /* Config of border*/
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    /* config background */
+    background-color: #F0FAFF;
+    /*Config fonts*/
+    /*config size*/
+    padding: 10px 20px 10px 10px;
+
+
+}
+.div_item{
+    /*config size*/
+    width: 100px;
+    height: 100px;
+    /* Config of border*/
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    /* config background */
+    background-color: #F0FAFF;
+}
