@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
         <meta charset="UTF-8">
         <title>Concept Map Builder</title>
         <!--Definition of css-->
@@ -8,28 +9,48 @@
         <!--fonts declaration-->
         <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 
-    </head>
-    <body>
+</head>
+<body>
         <h1>Concept Map Builder</h1>
-        <div class="div_item"><label>Item 01</label>
+        <!--configure the tree-->
+        <div class="tree">
+                <!-- creating main element-->
+                <ul>
+                        <!-- creating parent element-->
+                        <li><a href="#">Parent1</a>
+                                <ul>
+                                        <!-- creating child element-->
+                                        <li><a href="#">child 01</a>
+                                                <ul>
+                                                        <!-- creating child of child element-->
+                                                        <li><a href="#">child 01 - 01</a></li>
+                                                        <li><a href="#">child 01 - 02</a></li>
+                                                        <li><a href="#">child 01 - 02</a></li>
+                                                </ul>
+                                        </li>
+                                        <!--<li><a href="#">child 01 01</a>-->
+                                </ul>
+                        </li>
 
+                </ul>
         </div>
-        <ul>Item 1
-            <li>Subitem 01</li>
-            <li>Subitem 02</li>
-            <li>Subitem 03</li>
-            <li>Subitem 04</li>
-            <li>Subitem 05</li>
-            <li>Subitem 06</li>
+        <div class="tree">
+                        <!-- creating main element-->
+                        <ul>
+                                <!-- creating parent element-->
+                                <li><a href="#">Parent1</a>
+                                        <ul>
+                                                <!-- creating child element-->
+                                                <li><a href="#">child 02</a>
+                                                        <ul>
+                                                                <!-- creating child of child element-->
+                                                                <li><a href="#">child 01 - 01</a>
+                                                        </ul>
+                                                <li><a href="#">child 02 01 </a>
+                                        </ul>
+                                </li>
+        
+                        </ul>
+                </div>
 
-        </ul>
-        <ul>Item 2
-            <li>Subitem 01</li>
-            <li>Subitem 02</li>
-            <li>Subitem 03</li>
-            <li>Subitem 04</li>
-            <li>Subitem 05</li>
-            <li>Subitem 06</li>
-        </ul>
-    </body>
 </html>
